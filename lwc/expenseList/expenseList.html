@@ -1,0 +1,14 @@
+<template>
+    
+    <lightning-card title="Expense List">
+
+        <lightning-datatable
+                key-field="id"
+                data={expensesList}
+                columns={columns}
+                hide-checkbox-column="true">
+        </lightning-datatable>
+
+    </lightning-card>
+
+</template>
